@@ -1,0 +1,126 @@
+.footer {
+  background: #521220;
+  color: #fff;
+  height: 419px;
+  box-sizing: border-box;
+  /* Ensures padding is included in element's width */
+}
+
+.footer-container {
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 100%;
+  /* Ensure it does not exceed viewport width */
+}
+
+.frame {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-header h2 {
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 48px;
+  text-align: center;
+  color: #fff;
+  padding: 0 16px;
+}
+
+.footer-paragraph p {
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  padding: 0 12px;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.contact-info h3 {
+  font-family: Roboto;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #fff;
+}
+
+.contact-details {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #fff;
+  /* Ensure text color is white */
+}
+
+.contact-item a {
+  color: #fff;
+}
+
+.footer-bottom {
+  border-top: 1px solid #CDD6E04D;
+  display: flex;
+  justify-content: center;
+  /* Center the text */
+  height: Hug 56px px;
+  padding: 16px 0px 16px 0px;
+}
+
+.footer-bottom p {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .footer {
+    padding: 50px 4%;
+    /* Adjust padding for smaller screens */
+  }
+
+  .footer-header h2 {
+    font-size: 28px;
+    /* Adjust font size for smaller screens */
+  }
+
+  .footer-paragraph p {
+    font-size: 14px;
+    /* Adjust font size for smaller screens */
+  }
+
+  .contact-info h3 {
+    font-size: 18px;
+    /* Adjust font size for smaller screens */
+  }
+
+  .contact-item {
+    font-size: 14px;
+    /* Adjust font size for smaller screens */
+  }
+}

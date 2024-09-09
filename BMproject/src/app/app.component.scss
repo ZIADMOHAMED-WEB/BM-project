@@ -1,0 +1,36 @@
+// /* Global CSS to reset default margins and paddings */
+// * {
+//     margin: 0;
+//     padding: 0;
+//     box-sizing: border-box;
+//   }
+  
+//   /* Container that holds the entire page layout */
+//   .page-container {
+//     display: flex;
+//     flex-direction: column;
+//     min-height: 100vh; /* Ensure it takes the full height of the viewport */
+//   }
+  
+//   /* Ensure that the content takes up the remaining space between header and footer */
+//   .page-content {
+//     flex: 1; /* This will grow to fill the available space */
+//     display: flex;
+//     justify-content: center; /* Center the content horizontally */
+//     align-items: center; /* Center the content vertically */
+//   }
+  
+//   /* Additional styles for other components */
+//   app-nav {
+//     width: 100%;
+//   }
+  
+//   app-start {
+//     width: 100%;
+//   }
+  
+//   app-footer {
+//     width: 100%;
+//     margin-top: auto; /* Push the footer to the bottom */
+//   }
+  

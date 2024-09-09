@@ -1,0 +1,88 @@
+.navbar-container {
+    background-color: #FFFFFF;
+    box-shadow: 0px 0px 20px 0px #6C76861A;
+    padding: 0 70px;
+    display: flex;
+    justify-content: center;
+    min-height: Hug (71.23px);
+  
+    .navbar-inner-container {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+  
+    .navbar-left {
+      display: flex;
+      align-items: center;
+  
+      .navbar-link {
+        text-decoration: none;
+  
+        .navbar-text {
+          font-family: 'Inter', sans-serif;
+          font-size: 32px;
+          font-weight: 600;
+          line-height: 48px;
+          color: #24221E;
+        }
+      }
+    }
+  
+    .navbar-right {
+      display: flex;
+      align-items: center;
+      justify-content: flex-end;
+  
+      .navbar-links {
+        list-style: none;
+        display: flex;
+        margin: 0;
+  
+        .navbar-item {
+          padding: 0 16px;
+  
+          .navbar-item-link {
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 24px;
+            color: #3C3A37;
+            text-decoration: none;
+          }
+        }
+      }
+  
+      .navbar-buttons {
+        display: flex;
+        gap: 10px;
+  
+        .btn-login,
+        .btn-register {
+          font-family: 'Inter', sans-serif;
+          font-size: 16px;
+          font-weight: 500;
+          line-height: 24px;
+          padding: 8px 16px;
+          border: 1px solid;
+          cursor: pointer;
+          text-align: center;
+          border-radius: 6.5px; /* Reset button shape to rectangular */
+        }
+  
+        .btn-login {
+          background-color: transparent;
+          color: #24221E;
+          border-color: #24221E;
+        }
+  
+        .btn-register {
+          background-color: #871E35;
+          color: #FFFFFF;
+          border-color: #871E35;
+        }
+      }
+    }
+  }
+  

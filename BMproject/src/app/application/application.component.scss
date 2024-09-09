@@ -1,0 +1,186 @@
+.mobile-app-section {
+    margin-top: 0;
+    padding: 64px 5%; /* Responsive padding */
+    background: #f3e9eb;
+    display: flex;
+    justify-content: center;
+    
+  }
+  
+  /* Inside Container */
+  .mobile-app-container {
+    width: 100%;
+    max-width: 1250px;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap; /* Enables wrapping for smaller screens */
+  }
+  
+  /* X Container */
+  .container-x {
+    width: 100%;
+    max-width: 625px;
+    padding: 0 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px; /* Space between containers */
+  }
+  
+  /* Image Container inside X */
+  .image-container-x {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+    background: url("https://assets.contenthub.wolterskluwer.com/api/public/content/f7c8717e8b5e4b1ba5437f074725b010") no-repeat center center;
+    background-size: cover;
+    min-height: 300px; /* Minimum height for responsiveness */
+  }
+  
+  /* Y Container */
+  .container-y {
+    width: 100%;
+    max-width: 560px;
+    display: flex;
+    flex-direction: column;
+    // gap: 25px;
+  }
+  
+  /* Container A */
+  .container-a {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 0; /* No gap between header and text */
+  }
+  
+  /* Header and Text inside Container A */
+  .container-a-header-text {
+    display: flex;
+    flex-direction: column;
+    gap: 0; /* No gap between header and text */
+  }
+  
+  .text-mobile-app {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    // text-align: left;
+    color: #871e35;
+  }
+  
+  .header-download-app {
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 60px;
+    // text-align: left;
+    color: #24221e;
+  }
+  
+  /* Container B */
+  .container-b {
+    width: 100%;
+  }
+  
+  .text-description {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    // text-align: left;
+    color: #3c3a37;
+  }
+  
+  /* List Styles */
+  .list-container {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+  
+  .list-item {
+    display: flex;
+    align-items: center;
+    padding: 0 0 1px 0;
+    gap: 12px;
+  }
+  
+  .list-item-background {
+
+    width: 26px;
+    height: 26px;
+    border-radius: 50%;
+    border: 2px solid #871e35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .list-item-icon {
+    width: 18px;
+    height: 18px;
+    position: relative;
+  }
+  
+  .list-item-icon::before {
+    content: "";
+    position: absolute;
+    width: 15px;
+    height: 2px;
+    background: #871e35;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+  }
+  
+  .list-item-icon::after {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    border: solid #871e35;
+    border-width: 2px 2px 0 0;
+    transform: rotate(45deg);
+    top: 50%;
+    left: 6px;
+    transform: translateY(-50%) rotate(45deg);
+  }
+  
+  /* Frame for App Store Links */
+  .app-download-frame {
+    display: flex;
+    gap: 17.61px;
+    flex-wrap: wrap; /* Allows links to wrap on smaller screens */
+    justify-content: flex-start; /* Center the links */
+    margin-top: 20px; /* Add space above buttons if needed */
+  }
+  
+  /* Download Link Styles */
+  .app-link {
+    // display: block;
+    width: 100%;
+    max-width: 150px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    text-indent: -9999px; /* Hide text inside the link */
+    border: none;
+    border-radius: 10px;
+
+
+  }
+  
+  .app-store {
+   
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Download_on_the_App_Store_Badge.svg/640px-Download_on_the_App_Store_Badge.svg.png");
+  }
+  
+  .google-play {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRAb_9TKKWTv5fzhwNuPLfL_pch6oeREUrLkA&s");
+  }

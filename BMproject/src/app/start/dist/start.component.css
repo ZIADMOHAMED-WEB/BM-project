@@ -1,0 +1,203 @@
+.background {
+  width: 92.5%;
+  height: 634.9px;
+  position: relative;
+  left: 0;
+  padding: 64px 60px;
+  background-color: #FBFBFB;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0;
+  opacity: 1;
+}
+
+/* Centering the text and making it responsive */
+.text-container {
+  text-align: center;
+  margin-bottom: 30px;
+  padding: 0 20px;
+  /* Adjust padding for smaller screens */
+}
+
+.text-container .getting-started {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #871E35;
+  padding: 10px;
+}
+
+.text-container .lorem {
+  font-family: "Inter", sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 50px;
+  text-align: center;
+  color: #24221E;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.big-frame {
+  display: flex;
+  justify-content: space-between;
+  width: 920px;
+  gap: 16px;
+  padding: 0;
+  color: #FFFFFF;
+}
+
+/* Each frame container */
+.frame {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin: 20px;
+  padding: 16px;
+  gap: 5px;
+}
+
+/* Circle icon container */
+.circle {
+  width: 120px;
+  height: 120px;
+  background-color: #F3E9EB;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.circle img {
+  width: 62.88px;
+  height: 62.88px;
+}
+
+/* Text group one styles */
+.group-one {
+  text-align: center;
+  margin-bottom: 0px;
+  color: #24221E;
+}
+
+.group-one h3 .highlight-number {
+  color: #871E35;
+}
+
+.group-one h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  margin-bottom: 10px;
+}
+
+.group-one p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Text group two styles */
+.group-two {
+  width: 264px;
+  text-align: center;
+  padding-bottom: 0.89px;
+  color: #3C3A37;
+}
+
+.group-two p {
+  font-family: "Inter", sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Additional paragraph styles */
+.pp {
+  color: #5D7079;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 1024px) {
+  .big-frame {
+    flex-direction: column;
+    /* Stack frames vertically on tablet screens */
+    align-items: center;
+    width: 100%;
+    gap: 32px;
+  }
+
+  .frame {
+    width: 90%;
+    /* Make frame width responsive */
+  }
+
+  .background {
+    padding: 32px 20px;
+    /* Adjust padding for smaller screens */
+  }
+}
+@media (max-width: 768px) {
+  .text-container .lorem {
+    font-size: 32px;
+    line-height: 40px;
+  }
+
+  .text-container .getting-started {
+    font-size: 18px;
+  }
+
+  .circle {
+    width: 100px;
+    height: 100px;
+  }
+
+  .circle img {
+    width: 50px;
+    height: 50px;
+  }
+
+  .frame {
+    width: 100%;
+    /* Full width on smaller screens */
+    margin: 10px;
+  }
+
+  .big-frame {
+    width: 100%;
+  }
+}
+@media (max-width: 480px) {
+  .text-container .lorem {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  .text-container .getting-started {
+    font-size: 16px;
+  }
+
+  .circle {
+    width: 80px;
+    height: 80px;
+  }
+
+  .circle img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .frame {
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+  }
+
+  .big-frame {
+    width: 100%;
+  }
+}
